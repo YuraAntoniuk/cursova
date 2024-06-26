@@ -19,5 +19,5 @@ use Illuminate\Support\Facades\Route;
     Route::resource('color', \App\Http\Controllers\Color\ColorController::class);
     Route::resource('user',\App\Http\Controllers\User\UniverseController::class);
     Route::resource('product', \App\Http\Controllers\Product\ProductController::class);
-    Route::resource('universe', \App\Http\Controllers\Universe\UniverseController::class);
+
 
